@@ -17,37 +17,39 @@ h4{
 }
 
 .color-container{
-    border: 1px solid red;
     margin: 10px;
+    text-align: center;
+}
+
+.panel{
     display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
 }
 
-.blue {
-    border: 1px solid black;
-    width: 150px;
+
+.cornflowerblue {
     background-color: #6495ed;
-    float: right;
+    padding: 10px;
+    border: 1px solid grey;
 }
 
-.red {
-    border: 1px solid black;
-    width: 150px;
+.crimson {
+    border: 1px solid grey;
     background-color: #dc143c;
-    float: right;
-    
+    padding: 10px;
 }
 
-.purple {
-    border: 1px solid black;
-    width: 150px;
+.blueviolet {
+    border: 1px solid grey;
     background-color: #9625b0;
-    float: right;
+    padding: 10px;
 }
 
-.green {
-    border: 1px solid black;
-    width: 150px;
+.chartreuse1 {
+    border: 1px solid grey;
     background-color: #7fff00;
+    padding: 10px;
 }
 
 .container{
@@ -61,11 +63,24 @@ h4{
     border-radius: 5px;
 }
 
+.font-container {
+    border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.font-container > div{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: center;
+    margin: 10px;
+}
+
 .roboto{
     width: 400px;
     border: 1px solid blue; 
     font-family: "Roboto Condensed"; 
-    margin-top: 10px;
     background-color: white;
 }
 
@@ -73,14 +88,11 @@ h4{
     width: 400px;
     border: 1px solid blue;
     font-family: "Oswald";
-    margin-bottom: 10px;
-    float: right;
 }
 
 .gothic{
     border: 1px solid blue;
     font-family: "BIZ UDGothic";
-    margin-top: 10px;
     width: 400px;
 }
 
